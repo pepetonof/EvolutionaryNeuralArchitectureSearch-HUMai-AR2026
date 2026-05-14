@@ -252,7 +252,7 @@ def overlay_imgs(inputs, masks, preds, alpha=0.4):
 def set_title(tensor,string):
     # font=ImageFont.truetype('C:/Users/josef/OneDrive - Universidad Veracruzana/DIA/NASGP-Net/code/Arial.ttf',11)
     # font=ImageFont.truetype(r'/home/202201016n/serverBUAP/NASGP-Net/Arial.ttf', 12)
-    font=ImageFont.truetype('Arial.ttf',11)
+    font=ImageFont.truetype("C:/Users/josef/OneDrive/Documentos/DIA/Talleres/Taller-HumaiAR2026/EvolutionaryNeuralArchitectureSearch-HUMai-AR2026/nasgpnet-code/Arial.ttf",11)
     # w, h = font.getsize(string)
     
     left, top, right, bottom = font.getbbox(string)
